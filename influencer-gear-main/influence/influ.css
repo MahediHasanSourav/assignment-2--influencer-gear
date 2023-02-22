@@ -1,0 +1,99 @@
+
+.heading{
+    font-weight: 700;
+    font-size: 24px;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
+
+nav{
+   position: absolute;
+   left:  857px;
+   top: 87px;
+   justify-content:space-around;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+
+    
+}
+.nav-button{
+    padding-left: 20px;
+}
+
+
+/* ---first-section--- */
+.first-section{
+    display: flex;
+}
+.start-journey{
+    height:270px ;
+    width:582px;
+    position: absolute;
+    top: 150px;
+    left: 85px;
+}
+
+.heading-journey{
+    font-weight: 700;
+    font-size: 52px;
+}
+.journey-detail{
+   
+    font-weight: 600;
+    font-size: 16px;
+    
+   
+    
+}
+
+a{
+    text-decoration: none;
+    
+}
+.button{
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 41px;
+    font-size: 16px;
+    font-weight: 700;
+    border: solid 1px #E02C6D;
+    background-color: #E02C6D;
+    color:#FFFFFF ; 
+}
+.dslr-camera{
+    position: absolute;
+    left: 835px;
+    top: 150px;
+    width: 440px;
+    height: 414px;
+}
+
+/* --logos-- */
+
+.logos{
+    position: absolute;
+    bottom: 20px;
+    left: 165px;
+    top: 600px;
+    width: 1110px;
+    height: 110px;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    
+   
+    
+}
+.logo{
+    display: grid;
+    grid-template-columns: repeat(7 ,1fr);
+    justify-content: space-between;
+    padding: 40px;
+}
