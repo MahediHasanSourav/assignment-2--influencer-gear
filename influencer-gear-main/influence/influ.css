@@ -1,6 +1,11 @@
-
+.container{
+    display: grid;
+    justify-content: center;
+}
 .navbar{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .heading{
     font-weight: 700;
@@ -33,6 +38,8 @@ nav a{
 /* ---first-section--- */
 .first-section{
     display: flex;
+    justify-content:space-between;
+    align-items: center;
 }
 .start-journey{
     height:270px ;
@@ -83,12 +90,13 @@ a{
 
 .logos{
     /* position: absolute; */
+    display: grid;
     bottom: 20px;
     left: 165px;
     top: 600px;
     width: 1110px;
-    height: 110px;
-    border: 1px solid lightgray;
+    /* height: 200px;
+    border: 1px solid lightgray; */
     border-radius: 14px;
     
    
@@ -96,7 +104,91 @@ a{
 }
 .logo{
     display: grid;
+    align-items: end;
     grid-template-columns: repeat(7 ,1fr);
-    justify-content: space-between;
+    justify-content: center;
     padding: 40px;
+    margin-left: 200px;
+    margin-bottom: 30px;
 }
+
+/* ---popular-collection--- */
+
+
+.popular-section{
+    width: 1047;
+    height: 1662;
+    display: grid;
+    justify-content: center;
+   
+}
+.popular-heading{
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+}
+.popular-gear{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+}
+.gears{
+    width: 329px;
+    height: 476px;
+    margin-bottom: 20px;
+    
+}
+.gears img{
+    width: 300px;
+    height: 256px;
+}
+.gear-details{
+    
+    margin: 10px;
+}
+
+/* ---featured-products--- */
+.featured-products{
+    display: flex;
+    width: 1124px;
+    height: 270px;
+    margin-top: 150px;
+}
+.product-place{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.feature-pic img{
+    width: 404px;
+    height: 270px;
+    margin-bottom: 10px;
+}
+.feature-head{
+    font-weight: 700;
+    font-size: 38px;
+}
+.feature-txt{
+    margin: 50px;
+    margin-top: 0px;
+}
+
+/* ----fdooter--- */
+.last{
+    display:flex ;
+    justify-content: center;
+   
+}
+.last-part{
+    margin-bottom: 50px;
+}
+.center{
+    /* text-align: center; */
+    position: absolute;
+    left: 100px;
+}
+/* .social-logo{
+    align-items: center;
+    position: absolute;
+    right: 670px;
+} */
